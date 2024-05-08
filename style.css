@@ -113,4 +113,24 @@ img {
     margin-bottom: 25px;
 }
 
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+    flex-direction: column;
+}
+
+.name {
+    margin-right: 250px;
+    margin-left: auto;
+    font-weight: bolder;
+}
+
+.quote-text {
+    max-width: 800px;
+    font-size: 36px;
+    font-style: italic;
+}
 
