@@ -81,5 +81,36 @@ ul {
     border: 1px solid #3882F6
 }
 
+.info-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.item {
+    max-width: 150px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+img {
+    border-radius: 5px ;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
 
